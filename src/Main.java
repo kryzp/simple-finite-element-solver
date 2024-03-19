@@ -25,7 +25,7 @@ public class Main {
 		System.out.println("Current directory is " + new File(".").getAbsolutePath());
 
 		FESolver solver = new FESolver();
-		solver.loadFromFile("scenario2.fem");
+		solver.loadFromFile("scenario3.fem");
 		solver.buildMatrix();
 
 		ArrayList<Node> displacements = solver.solveDisplacements();
