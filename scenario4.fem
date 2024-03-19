@@ -1,0 +1,16 @@
+// cantilever beam with point load at the end without reinforcing beams
+#Node
+0, 0.0, 0.0, 0.0
+1, 1.0, 0.0, 0.0
+2, 2.0, 0.0, 0.0
+3, 3.0, 0.0, 0.0
+#Element
+0, 0, 1, 1.0, 1.0, 1.0
+0, 1, 2, 1.0, 1.0, 1.0
+0, 2, 3, 1.0, 1.0, 1.0
+#Boundary
+0, 0.0, 0.0, 0.0
+#Forces
+3, 0.0, -0.1, 0.0
+#Subdivisions
+6
